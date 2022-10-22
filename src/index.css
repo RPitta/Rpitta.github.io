@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+@layer base {
+  body {
+    @apply font-[Raleway];
+    /* @apply font-[Open+Sans]; */
+
+  }
+
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Monaco";
+  src: url("./assets/fonts/monaco-webfont.woff") format("woff2");
 }
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(to right,
+      rgba(112, 157, 255, 0.8),
+      hsla(242, 74%, 61%, 0.8)) !important;
+}
+
+.project-link {
+  transition: all 0.15s ease;
+}
+
+.project-link:hover {
+  background: #FAB861;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1),
+    0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.statement {
+  margin-bottom: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
+  line-height: 24px;
+  font-family: 'Monaco';
+
+}
+
+.hero-title {
+  font-family: 'Monaco';
+  letter-spacing: 1px;
+  color: #f9a02c;
+  font-size: 3rem;
+
+  @media (min-width: 768px) {
+    .md\:text-7xl {
+      font-size: 1.875rem
+        /* 72px */
+      ;
+      line-height: 1;
+    }
+  }
+
+}
+
+/* .hero-title span {
+  opacity: 0.65;
+   animate: pulse 1s steps(1) infinite; 
+} */
