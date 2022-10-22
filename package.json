@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Rpitta.github.io/portfolio",
+  "homepage": "http://Rpitta.github.io/portfolio",
   "name": "site",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "yarn build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
