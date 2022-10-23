@@ -4,14 +4,15 @@ import realEstate from '../assets/realestate.jpg'
 import { FaGithub } from 'react-icons/fa'
 import deverb from '../assets/deverbScreen.PNG';
 import rules from '../assets/rules.jpg'
+import site from '../assets/siteSample.PNG';
 
 
-const Work = () => {
+const Projects = () => {
     return (
-        <div name='work' className='w-full  text-[#525f7f] bg-[#eeeeee]'>
+        <div name='projects' className='w-full  text-[#525f7f] bg-[#eeeeee]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-14 flex justify-center '>
-                    <p className='text-4xl font-bold inline border-b-4 text-[#525f7f] border-[#fea34f] '>Work</p>
+                    <p className='text-4xl font-bold inline border-b-4 text-[#525f7f] border-[#fea34f] '>Projects</p>
 
                 </div>
 
@@ -29,45 +30,32 @@ const Work = () => {
                         <div className=' flex  flex-wrap mx-auto px-8 justify-center md:justify-start'>
                             {/* project title */}
                             <div className='text-2xl mt-10 font-semibold '>
-                                Project title
+                                Deverb
                             </div>
                             {/* description */}
                             <div className='text-sm pt-3 text-center md:text-start '>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ducimus quas quam eos ratione, temporibus alias porro ipsam repellat aut excepturi nesciunt quis nobis ab neque, magnam expedita quasi vitae.
+                                An audio plug-in built using the JUCE framework. My goal was to design a reverb algorithm similar to those found on old Alesis rack units. Along the way, I learned about the JUCE framework and fundamental DSP concepts.
                             </div>
                             {/* project skills */}
-                            <div className='flex mt-3 flex-wrap justify-center md:justify-start'>
+                            <div className='flex w-full mt-3 flex-wrap justify-center md:justify-start'>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs '>
-                                    Javascript
+                                    C++
                                 </div>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
+                                    JUCE
                                 </div>
-                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
-                                </div>
-                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
-                                </div>
-                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
-                                </div>
+
 
                             </div>
 
                             {/* buttons */}
                             <div className=' text-center my-4 flex font-bold text-sm '>
+
                                 <a href="/" target="_blank">
                                     <button
-                                        className="project-link bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
+                                        className="project-link-source bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
 
                                         <FaGithub size={18} />&nbsp; View Source
-                                    </button>
-                                </a>
-                                <a href="/" target="_blank">
-                                    <button
-                                        className="bg-white px-4 py-3 ml-2 shadow-lg rounded-lg">
-                                        Code
                                     </button>
                                 </a>
                             </div>
@@ -79,52 +67,35 @@ const Work = () => {
                         */}
                     <div className='shadow-lg overflow-hidden grow shadow-[#040c16] h-96 bg-[#FFFFFF] rounded-md flex'>
                         {/* <div className='w-full mx-auto'> */}
-                        <img className='hidden md:block w-1/2 h-full  object-cover' src={rules} alt="deverb" />
+                        <img className='hidden md:block w-1/2 h-full  object-cover' src={rules} alt="Language rules" />
                         {/* </div> */}
                         <div className=' flex  flex-wrap mx-auto px-8 justify-center md:justify-start'>
                             {/* project title */}
                             <div className='text-2xl mt-10 font-semibold '>
-                                Project title
+                                Interpreter
                             </div>
                             {/* description */}
                             <div className='text-sm pt-3 text-center md:text-start '>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ducimus quas quam eos ratione, temporibus alias porro ipsam repellat aut excepturi nesciunt quis nobis ab neque, magnam expedita quasi vitae.
+                                An interpreter for a made up language written in C++, assigned as part of a programming language concepts course. The lexical analyzer converts a sequence of characters into a sequence of tokens. The resulting tokens then get passed into the
+                                parser which builds up the parse tree from the read tokens.
                             </div>
                             {/* project skills */}
-                            <div className='flex mt-3 flex-wrap justify-center md:justify-start'>
+                            <div className='flex w-full mt-3  flex-wrap justify-center md:justify-start'>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs '>
-                                    Javascript
+                                    C++
                                 </div>
-                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
-                                </div>
-                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
-                                </div>
-                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
-                                </div>
-                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
-                                </div>
-
                             </div>
 
                             {/* buttons */}
                             <div className=' text-center my-4 flex font-bold text-sm '>
                                 <a href="/" target="_blank">
                                     <button
-                                        className="bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
+                                        className="project-link-source bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
 
                                         <FaGithub size={18} />&nbsp; View Source
                                     </button>
                                 </a>
-                                <a href="/" target="_blank">
-                                    <button
-                                        className="bg-white px-4 py-3 ml-2 shadow-lg rounded-lg">
-                                        Code
-                                    </button>
-                                </a>
+
                             </div>
                         </div>
                     </div>
@@ -134,33 +105,33 @@ const Work = () => {
                         */}
                     <div className='shadow-lg overflow-hidden grow shadow-[#040c16] h-96 bg-[#FFFFFF] rounded-md flex'>
                         {/* <div className='w-full mx-auto'> */}
-                        <img className='hidden md:block w-1/2 h-full  object-cover' src={deverb} alt="deverb" />
+                        <img className='hidden md:block w-1/2 h-full  object-cover' src={site} alt="site" />
                         {/* </div> */}
-                        <div className=' flex  flex-wrap mx-auto px-8 justify-center md:justify-start'>
+                        <div className=' flex flex-wrap mx-auto px-8 justify-center md:justify-start'>
                             {/* project title */}
-                            <div className='text-2xl mt-10 font-semibold '>
-                                Project title
+                            <div className='text-2xl w-full mt-10 font-semibold '>
+                                Portfolio
                             </div>
                             {/* description */}
                             <div className='text-sm pt-3 text-center md:text-start '>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ducimus quas quam eos ratione, temporibus alias porro ipsam repellat aut excepturi nesciunt quis nobis ab neque, magnam expedita quasi vitae.
+                                This page! Website built using reactJS.
                             </div>
                             {/* project skills */}
-                            <div className='flex mt-3 flex-wrap justify-center md:justify-start'>
+                            <div className='flex w-fullmt-3 flex-wrap justify-center md:justify-start'>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs '>
-                                    Javascript
+                                    HTML5
                                 </div>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
+                                    CSS3
                                 </div>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
+                                    JavaScript
                                 </div>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
+                                    Tailwind CSS
                                 </div>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Javascript
+                                    ReactJS
                                 </div>
 
                             </div>
@@ -169,15 +140,15 @@ const Work = () => {
                             <div className=' text-center my-4 flex font-bold text-sm '>
                                 <a href="/" target="_blank">
                                     <button
-                                        className="bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
+                                        className="project-link-source bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
 
                                         <FaGithub size={18} />&nbsp; View Source
                                     </button>
                                 </a>
-                                <a href="/" target="_blank">
+                                <a href="https://rpitta.github.io/portfolio/" target="_blank">
                                     <button
-                                        className="bg-white px-4 py-3 ml-2 shadow-lg rounded-lg">
-                                        Code
+                                        className="text-[#67a3d4] project-link-demo px-4 py-3 ml-2 shadow-lg rounded-lg">
+                                        Live Demo
                                     </button>
                                 </a>
                             </div>
@@ -189,4 +160,4 @@ const Work = () => {
     )
 }
 
-export default Work
+export default Projects

@@ -1,5 +1,6 @@
 import React from 'react'
 import Typewriter from './Typewriter';
+import resume from '../static/RodrigoPittar_Resume.pdf'
 
 const About = () => {
     return (
@@ -11,7 +12,7 @@ const About = () => {
                 <Typewriter className=' hero-title text-xs md:text-7xl text-center' text="Rodrigo Pittar" />
                 {/* description */}
                 <div className='w-4/5 lg:w-3/5 pt-16 text-sm md:text-lg text-center font-extralight leading-7'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae voluptatibus explicabo excepturi a, culpa unde, optio incidunt similique qui aspernatur velit laborum iusto? Cupiditate eum porro nobis alias? Culpa, voluptate.
+                    A budding software developer. What I know is that there is much to know. Below are a few examples that have taught me that.
                 </div>
             </div>
             <div className="flex flex-col mt-32 justify-center items-center w-full ">
@@ -36,7 +37,7 @@ const About = () => {
                             </div>
                             <div className='statement'>
                                 <div className='input-statement text-[#f7f7f7]'>&gt; Rodrigo.resume</div>
-                                <div className='output-statement text-[#e7d184]'>["<a className='text-cyan-300' href="">RodrigoPittar_Resume.pdf</a>"]</div>
+                                <div className='output-statement text-[#e7d184]'>["<a className='text-cyan-300' href={resume} target="_blank">RodrigoPittar_Resume.pdf</a>"]</div>
                             </div>
                             <div className='statement'>
                                 <div className='input-statement text-[#f7f7f7]'>&gt; Rodrigo.interests</div>

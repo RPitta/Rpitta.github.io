@@ -38,12 +38,23 @@
       hsla(242, 74%, 61%, 0.8)) !important;
 }
 
-.project-link {
+.project-link-source {
   transition: all 0.15s ease;
 }
 
-.project-link:hover {
+.project-link-source:hover {
   background: #FAB861;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1),
+    0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.project-link-demo {
+  transition: all 0.15s ease;
+}
+
+.project-link-demo:hover {
+  color: #A0C5E4;
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1),
     0 3px 6px rgba(0, 0, 0, 0.08);
@@ -74,8 +85,3 @@
   }
 
 }
-
-/* .hero-title span {
-  opacity: 0.65;
-   animate: pulse 1s steps(1) infinite; 
-} */
