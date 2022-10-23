@@ -33,7 +33,7 @@ const About = () => {
                             </div>
                             <div className='statement'>
                                 <div className='input-statement text-[#f7f7f7]'>&gt; Rodrigo.contactInfo</div>
-                                <div className='output-statement text-[#e7d184]'>["<a className='text-cyan-300' href="">rodrigo.pittar@gmail</a>", "<a className='text-cyan-300' href="https://www.github.com/Rpitta">github</a>"]</div>
+                                <div className='output-statement text-[#e7d184]'>["<a className='text-cyan-300' target="_blank" rel='noopener' href="mailto:rodrigo.pittar@gmail.com">rodrigo.pittar@gmail</a>", "<a className='text-cyan-300' href="https://www.github.com/Rpitta">github</a>"]</div>
                             </div>
                             <div className='statement'>
                                 <div className='input-statement text-[#f7f7f7]'>&gt; Rodrigo.resume</div>
@@ -58,27 +58,6 @@ const About = () => {
                     </div>
 
                 </div>
-
-                {/* 
-                <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                    <div className='sm:text-right pb-8 pl-4'>
-                        <p className='text-4xl font-bold inline border-b-4 border-[#fea34f]'>About</p>
-                    </div>
-                </div>
-                <div>
-                </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right text-4xl font-bold'>
-                        <p>
-                            Hi, I'm Rodrigo, nice to meet you. Please take a look around.
-                        </p>
-                    </div>
-                    <div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta ea aut autem,
-                            harum molestiae voluptates, excepturi odio nihil quibusdam nulla, eius quo ex
-                            tempora sed ab. Nobis, eius quasi?</p>
-                    </div>
-                </div> */}
             </div>
         </div>
     )
