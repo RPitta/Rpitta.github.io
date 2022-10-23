@@ -17,6 +17,8 @@ const About = () => {
             </div>
             <div className="flex flex-col mt-20 sm:mt-32 justify-center items-center w-full ">
                 {/* terminal */}
+                <br className='sm:hidden' />
+                <br className='sm:hidden' />
                 <div className='container max-w-[1000px] w-10/12 shadow-2xl'>
                     {/* terminal header */}
                     <div className=' flex h-7 align-baseline items-center bg-[#47504E] rounded-t-lg'>
