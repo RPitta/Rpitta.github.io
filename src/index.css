@@ -10,7 +10,7 @@
   body {
     @apply font-[Raleway];
     /* @apply font-[Open+Sans]; */
-
+    background-color: #eeeeee;
   }
 
   li {

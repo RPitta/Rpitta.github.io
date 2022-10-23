@@ -19,10 +19,7 @@ const Projects = () => {
                 {/* container */}
                 <div className='grid grid-cols-1 gap-11 justify-center'>
 
-                    {/* grid card item
-                        add a flexbox div above this and have div next to this for the img 
-                        hide img if sm or smaller
-                        */}
+                    {/* grid card item */}
                     <div className='shadow-lg overflow-hidden grow shadow-[#040c16] h-96 bg-[#FFFFFF] rounded-md flex'>
                         {/* <div className='w-full mx-auto'> */}
                         <img className='hidden md:block w-1/2 h-full  object-cover' src={deverb} alt="deverb" />
@@ -51,7 +48,7 @@ const Projects = () => {
                             {/* buttons */}
                             <div className=' text-center my-4 flex font-bold text-sm '>
 
-                                <a href="/" target="_blank">
+                                <a href="https://github.com/RPitta/Deverb" target="_blank">
                                     <button
                                         className="project-link-source bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
 
@@ -61,10 +58,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    {/* grid card item
-                        add a flexbox div above this and have div next to this for the img 
-                        hide img if sm or smaller
-                        */}
+                    {/* grid card item */}
                     <div className='shadow-lg overflow-hidden grow shadow-[#040c16] h-96 bg-[#FFFFFF] rounded-md flex'>
                         {/* <div className='w-full mx-auto'> */}
                         <img className='hidden md:block w-1/2 h-full  object-cover' src={rules} alt="Language rules" />
@@ -88,7 +82,7 @@ const Projects = () => {
 
                             {/* buttons */}
                             <div className=' text-center my-4 flex font-bold text-sm '>
-                                <a href="/" target="_blank">
+                                <a href="https://github.com/RPitta/Interpreter" target="_blank">
                                     <button
                                         className="project-link-source bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
 
@@ -99,10 +93,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    {/* grid card item
-                        add a flexbox div above this and have div next to this for the img 
-                        hide img if sm or smaller
-                        */}
+                    {/* grid card item */}
                     <div className='shadow-lg overflow-hidden grow shadow-[#040c16] h-96 bg-[#FFFFFF] rounded-md flex'>
                         {/* <div className='w-full mx-auto'> */}
                         <img className='hidden md:block w-1/2 h-full  object-cover' src={site} alt="site" />
@@ -138,7 +129,7 @@ const Projects = () => {
 
                             {/* buttons */}
                             <div className=' text-center my-4 flex font-bold text-sm '>
-                                <a href="/" target="_blank">
+                                <a href="https://github.com/RPitta/portfolio" target="_blank">
                                     <button
                                         className="project-link-source bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
 

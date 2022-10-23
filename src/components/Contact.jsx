@@ -1,5 +1,6 @@
 import React from 'react'
 
+// TODO: Set up getform.io contact form
 const Contact = () => {
     return (
         <div name="contact" className='w-full h-screen bg-[#eeeeee] flex justify-center text-[#525f7f] items-center p-4'>
