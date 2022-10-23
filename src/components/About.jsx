@@ -5,17 +5,17 @@ import resume from '../static/RodrigoPittar_Resume.pdf'
 const About = () => {
     return (
 
-        <div name="about" className='flex flex-col justify-center w-full h-screen bg-[#eeeeee] text-[#525f7f]'>
+        <div name="about" className='flex sm:h-screen flex-col justify-center w-full mb-40 sm:m-auto bg-[#eeeeee] text-[#525f7f]'>
             {/*greeting */}
             <div className='mt-32 md:mt-0 hero flex flex-col items-center justify-between h-40'>
                 {/* title */}
-                <Typewriter className=' hero-title text-xs md:text-7xl text-center' text="Rodrigo Pittar" />
+                <Typewriter className='hero-title  w-4/5 sm:w-auto  sm:h-auto md:text-7xl sm:text-center' text="Rodrigo Pittar" />
                 {/* description */}
-                <div className='w-4/5 lg:w-3/5 pt-16 text-sm md:text-lg text-center font-extralight leading-7'>
+                <div className='w-4/5 lg:w-3/5 pt-4 sm:pt-16 text-sm md:text-lg sm:text-center font-extralight leading-7'>
                     A budding software developer. What I know is that there is much to know. Below are a few examples that have taught me that.
                 </div>
             </div>
-            <div className="flex flex-col mt-32 justify-center items-center w-full ">
+            <div className="flex flex-col mt-20 sm:mt-32 justify-center items-center w-full ">
                 {/* terminal */}
                 <div className='container max-w-[1000px] w-10/12 shadow-2xl'>
                     {/* terminal header */}
