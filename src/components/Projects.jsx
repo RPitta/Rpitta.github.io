@@ -1,11 +1,9 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
-import realEstate from '../assets/realestate.jpg'
 import { FaGithub } from 'react-icons/fa'
 import deverb from '../assets/deverbScreen.PNG';
 import rules from '../assets/rules.jpg'
 import site from '../assets/siteSample.PNG';
-
+import pokedex from '../assets/pokedex2.PNG';
 
 const Projects = () => {
     return (
@@ -90,6 +88,60 @@ const Projects = () => {
                                     </button>
                                 </a>
 
+                            </div>
+                        </div>
+                    </div>
+                    {/* grid card item */}
+                    <div className='shadow-lg overflow-hidden grow shadow-[#040c16] h-96 bg-[#FFFFFF] rounded-md flex'>
+                        {/* <div className='w-full mx-auto'> */}
+                        <img className='hidden md:block w-1/2 h-full  object-cover' src={pokedex} alt="deverb" />
+                        {/* </div> */}
+                        <div className=' flex  flex-wrap mx-auto px-8 justify-center md:justify-start'>
+                            {/* project title */}
+                            <div className='text-2xl mt-10 font-semibold '>
+                                Pokedex
+                            </div>
+                            {/* description */}
+                            <div className='text-sm pt-3 text-center md:text-start '>
+                                An audio plug-in built using the JUCE framework. My goal was to design a reverb algorithm similar to those found on old Alesis rack units. Along the way, I learned about the JUCE framework and fundamental DSP concepts.
+                            </div>
+                            {/* project skills */}
+                            <div className='flex w-full mt-3 flex-wrap justify-center md:justify-start'>
+                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs '>
+                                    Java
+                                </div>
+                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
+                                    Spring Boot
+                                </div>
+                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
+                                    ReactJS
+                                </div>
+                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
+                                    MySQL
+                                </div>
+                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
+                                    Bootstrap
+                                </div>
+
+
+                            </div>
+
+                            {/* buttons */}
+                            <div className=' text-center my-4 flex font-bold text-sm '>
+
+                                <a href="https://github.com/RPitta/PokemonApp" target="_blank">
+                                    <button
+                                        className="project-link-source bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
+
+                                        <FaGithub size={18} />&nbsp; View Source
+                                    </button>
+                                </a>
+                                <a href="http://178.128.145.241" target="_blank">
+                                    <button
+                                        className="text-[#67a3d4] project-link-demo px-4 py-3 ml-2 shadow-lg rounded-lg">
+                                        Live Demo
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
