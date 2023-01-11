@@ -103,7 +103,7 @@ const Projects = () => {
                             </div>
                             {/* description */}
                             <div className='text-sm pt-3 text-center md:text-start '>
-                                An audio plug-in built using the JUCE framework. My goal was to design a reverb algorithm similar to those found on old Alesis rack units. Along the way, I learned about the JUCE framework and fundamental DSP concepts.
+                                Outputs pokemon data that was consumed from the Poke API and persisted on a database. Displays pokemon stats, sprite image, and custom background color based on type and allows searching by name. Built with ReactJS, Spring Boot, JPA, and MySQL and then dockerized and hosted on Digital Ocean.
                             </div>
                             {/* project skills */}
                             <div className='flex w-full mt-3 flex-wrap justify-center md:justify-start'>
@@ -152,7 +152,7 @@ const Projects = () => {
                         {/* </div> */}
                         <div className=' flex flex-wrap mx-auto px-8 justify-center md:justify-start'>
                             {/* project title */}
-                            <div className='text-2xl w-full mt-10 font-semibold '>
+                            <div className='text-2xl w-full text-center md:text-start mt-10 font-semibold '>
                                 Portfolio
                             </div>
                             {/* description */}
@@ -160,7 +160,7 @@ const Projects = () => {
                                 This page! Website built using reactJS.
                             </div>
                             {/* project skills */}
-                            <div className='flex w-fullmt-3 flex-wrap justify-center md:justify-start'>
+                            <div className='flex w-full mt-3 flex-wrap justify-center md:justify-start'>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs '>
                                     HTML5
                                 </div>
