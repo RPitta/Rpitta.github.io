@@ -35,7 +35,7 @@ const About = () => {
                             </div>
                             <div className='statement'>
                                 <div className='input-statement text-[#f7f7f7]'>&gt; Rodrigo.contactInfo</div>
-                                <div className='output-statement text-[#e7d184]'>["<a className='text-cyan-300' target="_blank" rel='noopener' href="mailto:rodrigo.pittar@gmail.com">rodrigo.pittar@gmail</a>", "<a className='text-cyan-300' href="https://www.github.com/Rpitta">github</a>"]</div>
+                                <div className='output-statement text-[#e7d184]'>["<a className='text-cyan-300' target="_blank" rel='noopener' href="mailto:rodrigo.pittar@gmail.com">rodrigo.pittar@gmail</a>", "<a className='text-cyan-300' target="_blank" href="https://www.github.com/Rpitta">github</a>"]</div>
                             </div>
                             <div className='statement'>
                                 <div className='input-statement text-[#f7f7f7]'>&gt; Rodrigo.resume</div>
