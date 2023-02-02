@@ -95,7 +95,7 @@ const Projects = () => {
                     {/* grid card item */}
                     <div className='shadow-lg overflow-hidden grow shadow-[#040c16] h-96 bg-[#FFFFFF] rounded-md flex'>
                         {/* <div className='w-full mx-auto'> */}
-                        <img className='hidden md:block w-1/2 h-full  object-cover' src={pokedex} alt="deverb" />
+                        <img className='hidden md:block w-1/2 h-full  object-cover' src={pokedex} alt="pokedex" />
                         {/* </div> */}
                         <div className=' flex md:w-1/2 flex-wrap mx-auto px-8 justify-center md:justify-start'>
                             {/* project title */}
@@ -166,13 +166,13 @@ const Projects = () => {
                                     HTML5
                                 </div>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    CSS3
+                                    Tailwind CSS
                                 </div>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
                                     EJS
                                 </div>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
-                                    Tailwind CSS
+                                    Express
                                 </div>
                                 <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
                                     MongoDB
@@ -182,14 +182,14 @@ const Projects = () => {
 
                             {/* buttons */}
                             <div className=' text-center my-4 flex font-bold text-sm '>
-                                <a href="https://github.com/RPitta/portfolio" target="_blank">
+                                <a href="https://github.com/RPitta/DayTrip" target="_blank">
                                     <button
                                         className="project-link-source bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
 
                                         <FaGithub size={18} />&nbsp; View Source
                                     </button>
                                 </a>
-                                <a href="https://rpitta.github.io/portfolio/" target="_blank">
+                                <a href="http://192.241.157.10/" target="_blank">
                                     <button
                                         className="text-[#67a3d4] project-link-demo px-4 py-3 ml-2 shadow-lg rounded-lg">
                                         Live Demo
