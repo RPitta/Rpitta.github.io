@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3a5a7b0c.css",
-    "main.js": "/portfolio/static/js/main.979668f6.js",
+    "main.js": "/portfolio/static/js/main.bff9c9d8.js",
     "static/media/dayTrip2.PNG": "/portfolio/static/media/dayTrip2.eca0e5c0a06d2fc28a3e.PNG",
     "static/media/pokedex2.PNG": "/portfolio/static/media/pokedex2.1181a53d5bf83faa735c.PNG",
     "static/media/RodrigoPittar_Resume.pdf": "/portfolio/static/media/RodrigoPittar_Resume.affb7552ca125a92c77e.pdf",
@@ -11,10 +11,10 @@
     "static/media/siteSample.PNG": "/portfolio/static/media/siteSample.c92397a99fbce7bf67f3.PNG",
     "index.html": "/portfolio/index.html",
     "main.3a5a7b0c.css.map": "/portfolio/static/css/main.3a5a7b0c.css.map",
-    "main.979668f6.js.map": "/portfolio/static/js/main.979668f6.js.map"
+    "main.bff9c9d8.js.map": "/portfolio/static/js/main.bff9c9d8.js.map"
   },
   "entrypoints": [
     "static/css/main.3a5a7b0c.css",
-    "static/js/main.979668f6.js"
+    "static/js/main.bff9c9d8.js"
   ]
 }
