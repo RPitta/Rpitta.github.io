@@ -4,6 +4,7 @@ import deverb from '../assets/deverbScreen.PNG';
 import rules from '../assets/rules.jpg'
 import site from '../assets/siteSample.PNG';
 import pokedex from '../assets/pokedex2.PNG';
+import daytrip from '../assets/dayTrip2.PNG';
 
 const Projects = () => {
     return (
@@ -22,7 +23,7 @@ const Projects = () => {
                         {/* <div className='w-full mx-auto'> */}
                         <img className='hidden md:block w-1/2 h-full  object-cover' src={deverb} alt="deverb" />
                         {/* </div> */}
-                        <div className=' flex  flex-wrap mx-auto px-8 justify-center md:justify-start'>
+                        <div className=' flex md:w-1/2 flex-wrap mx-auto px-8 justify-center md:justify-start'>
                             {/* project title */}
                             <div className='text-2xl mt-10 font-semibold '>
                                 Deverb
@@ -96,14 +97,14 @@ const Projects = () => {
                         {/* <div className='w-full mx-auto'> */}
                         <img className='hidden md:block w-1/2 h-full  object-cover' src={pokedex} alt="deverb" />
                         {/* </div> */}
-                        <div className=' flex  flex-wrap mx-auto px-8 justify-center md:justify-start'>
+                        <div className=' flex md:w-1/2 flex-wrap mx-auto px-8 justify-center md:justify-start'>
                             {/* project title */}
                             <div className='text-2xl mt-10 font-semibold '>
-                                Pokedex
+                                Pokédex
                             </div>
                             {/* description */}
                             <div className='text-sm pt-3 text-center md:text-start '>
-                                Outputs pokemon data that was consumed from the Poke API and persisted on a database. Displays pokemon stats, sprite image, and custom background color based on type and allows searching by name. Built with ReactJS, Spring Boot, JPA, and MySQL and then dockerized and hosted on Digital Ocean.
+                                Outputs Pokémon data that was consumed from the Poké API and persisted on a database. Displays pokémon stats, sprite image, and custom background color based on type and allows searching by name. Built with ReactJS, Spring Boot, JPA, and MySQL and then dockerized and hosted on Digital Ocean.
                             </div>
                             {/* project skills */}
                             <div className='flex w-full mt-3 flex-wrap justify-center md:justify-start'>
@@ -137,6 +138,58 @@ const Projects = () => {
                                     </button>
                                 </a>
                                 <a href="http://178.128.145.241" target="_blank">
+                                    <button
+                                        className="text-[#67a3d4] project-link-demo px-4 py-3 ml-2 shadow-lg rounded-lg">
+                                        Live Demo
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* grid card item */}
+                    <div className='shadow-lg overflow-hidden grow shadow-[#040c16] h-96 bg-[#FFFFFF] rounded-md flex'>
+                        {/* <div className='w-full mx-auto'> */}
+                        <img className='hidden md:block w-1/2 h-full  object-cover' src={daytrip} alt="site" />
+                        {/* </div> */}
+                        <div className=' flex flex-wrap md:w-1/2 mx-auto px-8 justify-center md:justify-start'>
+                            {/* project title */}
+                            <div className='text-2xl w-full text-center md:text-start mt-10 font-semibold '>
+                                DayTrip
+                            </div>
+                            {/* description */}
+                            <div className='text-sm pt-3 text-center md:text-start '>
+                                A "Yelp for cities". Users can search for a U.S. city or town and get back the top restaurants, hotels, and places of interest in the area. Users can also leave reviews, recommendations, and bookmark cities. For this, I leveraged the Yelp and Google Places APIs  for city and local business information.
+                            </div>
+                            {/* project skills */}
+                            <div className='flex w-full mt-3 flex-wrap justify-center md:justify-start'>
+                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs '>
+                                    HTML5
+                                </div>
+                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
+                                    CSS3
+                                </div>
+                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
+                                    EJS
+                                </div>
+                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
+                                    Tailwind CSS
+                                </div>
+                                <div className='border-[#67a3d4] rounded-md justify-start border-2 p-2 mr-2.5 mb-auto text-xs'>
+                                    MongoDB
+                                </div>
+
+                            </div>
+
+                            {/* buttons */}
+                            <div className=' text-center my-4 flex font-bold text-sm '>
+                                <a href="https://github.com/RPitta/portfolio" target="_blank">
+                                    <button
+                                        className="project-link-source bg-[#f9a02c] text-white px-4 py-3 mr-2 shadow-lg rounded-lg flex ">
+
+                                        <FaGithub size={18} />&nbsp; View Source
+                                    </button>
+                                </a>
+                                <a href="https://rpitta.github.io/portfolio/" target="_blank">
                                     <button
                                         className="text-[#67a3d4] project-link-demo px-4 py-3 ml-2 shadow-lg rounded-lg">
                                         Live Demo
